@@ -16,3 +16,9 @@ out/
 cache/
 broadcast/
 .DS_Store
+
+.wrangler/
+.vinext/
+coverage/
+*.tgz
+*.tar.gz
