@@ -11,6 +11,11 @@
 - 活动：https://mojo.devnads.com/events/16
 - 沟通方式：使用直白中文，解释必要术语，先说结果。
 
+## 新建会话继续工作
+
+在 Codex 中选择本项目文件夹，再创建会话。可直接说：“读取 AGENTS.md 和 docs/SESSION_HANDOFF.md，基于现有进度继续本次任务。”
+新会话靠项目文件接续，不依赖旧聊天自动传入。[会话交接](docs/SESSION_HANDOFF.md)保存当前执行位置。
+
 ## 阅读顺序
 
 1. [项目记忆](PROJECT_MEMORY.md)：当前事实、决定和下一步。
