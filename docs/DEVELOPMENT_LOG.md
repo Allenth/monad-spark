@@ -1,0 +1,38 @@
+# 执行记录
+
+## 2026-09-05：文档落盘
+
+目标：参考用户提供的 AI Coding 指南，把此前沟通落实到独立项目仓库。
+
+### 此前已执行证据
+
+- 初始化空提交：a92e77d，2026-09-05T10:18:00+08:00；main 跟踪 origin/main。
+- 本地项目：projects/monad-spark；远程：https://github.com/Allenth/monad-spark。
+- gh repo view 确认 PRIVATE；无产品代码、安装和部署。
+- Mojo register 注册助手，用户亲自认领；此前 GET /me = claimed、GET /projects?eventId=16 = ongoing / project=null。
+- 凭证保存仓库外，权限 600；不展示或复制内容。
+
+### 本轮操作
+
+- 读取外层 PROJECT_MEMORY、项目治理、计划模板、网站方法相关规定及 document-auditor 标准。
+- 浏览器成功读取 AI Coding Notion 页面；网页抓取工具失败不作为页面不存在的依据。
+- curl 读取 MONSKILLS install.md，只记录安装方式，没有安装、注册 WorkBuddy 或领取积分。
+- 读取 Git 状态、初始化时间和 GitHub 可见性；复查 Mojo 身份与现有项目。
+- 使用原 PROJECT_PLAN_TEMPLATE.md 复制并填写 12 个章节，保留 Draft 和待批准状态。
+- 新增 README、PROJECT_MEMORY、AGENTS、.gitignore；docs 下新增沟通记录、活动提交指南、技术研究、产品范围、计划、文档标准及本日志。
+- 不修改外层其他项目文件、不复制外层未提交改动。
+
+### 验证
+
+文档链接、章节数、敏感字符串和 diff 检查由本轮脚本执行，结果将在下方追加。未运行产品测试：本仓库还没有应用代码。
+
+### 风险与下一步
+
+真实业务范围、签约含义、分类批准、平台资格和提交材料仍未确定。下一步先解决范围问题；用户的占位意图保持待执行，不能凭文档创建虚假参赛成果。
+
+### 本轮验证结果
+
+- 最新只读 API 复核：claimed，绑定存在；活动 ongoing；project=null。
+- 10 份 Markdown 的本地相对链接检查通过；计划 12 章节完整。
+- 使用实际已保存凭证作不输出内容的匹配检查：没有密钥或认领令牌写入文档。
+- 文档审计：Go；产品交付：未实现，不作 Go 声明。

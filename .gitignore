@@ -1,0 +1,18 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials/
+**/credentials/
+*mojo*credential*.json
+mojo-monad-spark-event-16.json
+# Generated files
+node_modules/
+.next/
+dist/
+out/
+cache/
+broadcast/
+.DS_Store
