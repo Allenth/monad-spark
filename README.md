@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-当前已安装 Sites/React 工程，完成着陆页与六页产品演示；原工作台保留为静态原型。真实链上签署、域名绑定、MOJO 提交尚未完成。详见 [本轮交付](docs/LANDING_AND_DEMO.md)。
+当前已安装 Sites/React 工程，完成着陆页与六页产品演示；工作台已扩展为虚构数据点击 Demo，包含发起、签署、撤销和核验。真实链上签署、域名绑定、MOJO 提交尚未完成。详见 [本轮交付](docs/LANDING_AND_DEMO.md)。
 
 - GitHub：https://github.com/Allenth/monad-spark （私有）
 - 本地目录：`/Users/waykingah/Pictures/macOSwinOSCoding/AutoWebFactory(Skills)/projects/monad-spark`
@@ -39,3 +39,5 @@ Sites/React 前端，计划结合 Monad 测试网。当前只完成产品介绍�
 MOJO 身份、截图上传和错误码见提交指南。密钥在仓库之外，仅记录路径，禁止复制到文档、截图或 Git。项目说明不能宣称已具备法律签约效力。
 
 流程审查与修订图见 [FLOW_REVIEW.md](docs/FLOW_REVIEW.md)。当前部署地址为 https://monad-spark-sign.qinghui-meng.chatgpt.site ，仅所有者访问。
+
+点击演示入口 `/workspace`，在线使用说明 `/guide`；详细页面规格见 [DEMO_SPEC.md](docs/DEMO_SPEC.md)。Demo 不接真实钱包或链上数据。
