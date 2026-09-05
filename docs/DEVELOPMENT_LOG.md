@@ -57,3 +57,5 @@
 ## 着陆页与演示增量
 
 已确认：用户要求先开发着陆页和类似 PPT 的产品演示标签。已执行：首页、六页演示、键盘/按钮导航、移动布局及构建验证。保留原工作台静态原型。建议：先评审产品表达，再继续链上功能。未知/未完成：正式签署功能、域名绑定、MOJO 提交。详细验收见 LANDING_AND_DEMO.md。
+
+发布回执：Sites version 1 发布 succeeded，地址 https://monad-spark-sign.qinghui-meng.chatgpt.site ，仅所有者访问。对应源码 b9f0933105c2892daee50d1545c9b4f6afe5e0f6 已推送 GitHub main 和 Sites 源码仓库。目标域名尚未绑定，未提交 MOJO。全屏按钮已调用检查，但浏览器 fullscreen 状态反馈不一致，未计为全屏跨浏览器验收通过。
