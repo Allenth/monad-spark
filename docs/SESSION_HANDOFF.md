@@ -9,13 +9,13 @@
 - Site ID 在 .openai/hosting.json，禁止重建；网址 https://monad-spark-sign.qinghui-meng.chatgpt.site 。
 - / 为首页/PPT，/workspace 为可交互工作台，/guide 为说明，/chain 为按合同查询的模拟过程及凭证小窗。
 - 星河设备和远山工程是虚构演示名称；小窗不是嵌入的浏览器原站。
-- 模拟数据保存在当前标签页会话存储中；真实钱包、文件指纹及合约功能尚未实现。
+- 模拟数据保存在当前标签页会话存储中；真实钱包、文件指纹及公开测试网尚未接入；M1 合约已在本地测试通过。
 - npm run dev / npm run build 可用；模拟测试、构建及主要浏览器流程此前通过，见 DEVELOPMENT_LOG.md。
 - captionrewrite.com 尚未绑定；网站仅所有者访问，仓库最近核实私有；MOJO 已认领但尚未提交。
 
 ## 本轮任务
 
-用户要求更新 GitHub 并提交必要信息。更新 README、记忆、交接及决策/日志，清理过期进度描述。没有新增产品功能、变更域名、公开网站或提交比赛。
+用户已要求开始测试链开发；当前分支 codex/testnet-signing，实现 contracts/DocumentAgreement.sol、编译脚本及更新测试，生成 lib/agreement-artifact.json。M1 本地测试通过；尚未部署 Monad。已异步询问钱包名称与两个测试账号准备情况，不索取私钥。下一步 M2 文件核验、M3 钱包、M4 界面整合、M5 真实部署。
 
 ## 接续步骤
 

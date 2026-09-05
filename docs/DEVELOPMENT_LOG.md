@@ -101,3 +101,13 @@ Demo version 2 私有部署 succeeded，线上 /workspace 已打开并确认工�
 修改：README 补齐运行命令、四个入口、虚构名称、凭证小窗限制、私有演示及未绑定域名；压缩记忆/交接并消除旧“静态工作台”“等待 Demo 编码”表述；补充决策及文档登记。
 验证：相对文档链接检查、git diff --check 均通过。仅文档变更，未重复构建或链上测试；此前验证不可视为本轮真实链验收。
 限制和下一步：真实链功能、域名绑定、公开访问、MOJO 提交仍未完成；继续按用户反馈和既有计划推进。
+
+## 2026-09-05：M1 测试链开发启动与本地合约验收
+
+授权：用户要求开始测试链开发。使用 codex/testnet-signing 分支，沿用既有 experiment 计划，单代理执行。
+网络：公开 RPC https://testnet-rpc.monad.xyz 的 eth_chainId 实测返回 0x279f（10143）。官方领币入口 https://faucet.monad.xyz/；未领取或使用测试币。
+实现：DocumentAgreement.sol 注册、创建、指定甲方签署、发起方撤销；状态及事件与 FLOW_REVIEW 一致。compile-contract.mjs 生成 ABI/字节码和源码摘要，无部署地址或密钥。
+验证：先扩展 SHA-256 夹具及终态/权限测试，运行报“签署合约尚未实现”，再实现。测试调用方补上部署 Gas 估算及部署回执/代码校验，避免 Ganache 默认 Gas 导致部署失败后继续测试空地址。最终 node --test tests/agreement.test.mjs tests/demo.test.mjs tests/explorer.test.mjs 为 3/3 通过；包含直接提交互斥签署/撤销、第二笔回执 reverted；git diff --check 通过。
+编译：solc 0.8.36+commit.8a079791.Emscripten.clang，Shanghai，optimizer enabled / runs 200。复用现有 solc 0.8.36、ganache 7.9.2、viem 2.56.3，三者 package license 均为 MIT，未安装新脚手架。
+环境限制：Ganache 原生 µWS 与当前 Node ABI 不兼容，自动使用 JS 实现；测试正常结束，无公开测试网性能结论。合约标记 UNLICENSED，未擅自为整个项目授予开源许可。
+下一步：M2–M4 文件、钱包和前端整合；M5 需用户测试钱包及测试币。当前网页仍为 Demo，没有 Monad 合约地址或真实交易，不更新线上部署。

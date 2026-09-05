@@ -22,14 +22,14 @@
 
 ## 未完成与未知
 
-- 真实钱包、签署合约、测试网交易、真实文件指纹核验未实现；不能把模拟结果称为链上回执。
+- 签署合约 M1 已实现并通过本地测试；真实钱包、公开测试网部署/交易、真实文件指纹核验尚未完成。
 - captionrewrite.com 尚未绑定。网站仅所有者访问，仓库最近核实私有；尚未公开交付。
 - MOJO 已认领但尚未创建参赛项目，实际提交前须重新核验阶段/资格及材料。
 - 正式企业签署有效性、域名 DNS 配置和生产方案仍待落实。
 
 ## 下一步与索引
 
-当前继续收集 Demo 点击反馈。真实链上开发按 [v0.5 计划](docs/projects/monad-spark/PROJECT_PLAN.md) 的 M1–M6 推进，尚未执行；不要把旧“等待编码”理解为 Demo 还没有代码。
-本轮用户要求同步 GitHub，范围为必要项目说明与进度，不改变网站受众、不绑定域名、不提交比赛。
+用户已授权启动测试链开发，M1 已实现。后续按 [v0.5 计划](docs/projects/monad-spark/PROJECT_PLAN.md) 的 M2–M6 推进；不要将本地合约测试当成 Monad 测试网部署。
+当前分支 codex/testnet-signing。钱包名称及两个测试账号是否就绪待用户反馈；不改变网站受众、不绑定域名、不提交比赛。
 流程权威来源：[审查与修订图](docs/FLOW_REVIEW.md)；交互说明：[DEMO_SPEC](docs/DEMO_SPEC.md)；历史决定：[沟通记录](docs/DECISIONS_AND_CONVERSATION.md)。
 新会话先读 AGENTS.md 与交接文档，核对 Git，复用已有工程、Site 和 MOJO 身份。

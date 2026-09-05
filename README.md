@@ -32,7 +32,8 @@
 
 - `npm run build`：构建，最近一次页面更新已通过。
 - `node --test tests/demo.test.mjs tests/explorer.test.mjs`：模拟状态及浏览器链接测试，此前已通过。
-- `tests/agreement.test.mjs` 属于待实现合约计划，不代表真实签署测试已经通过。
+- `node --test tests/agreement.test.mjs`：注册、签署和撤销合约的本地测试，已通过；不代表 Monad 测试网联调通过。
+- `node scripts/compile-contract.mjs`：生成合约 ABI/字节码，固定 Shanghai EVM 与 optimizer 200。
 
 ## 架构与部署
 
@@ -60,3 +61,5 @@ MOJO 身份、截图上传和错误码见提交指南。密钥在仓库之外，
 凭证小窗是本站界面；MonadScan 禁止直接嵌入其他网站，原站通过独立窗口或新标签打开。模拟记录不提供虚假的交易链接。
 
 当前在线版本为私有 Demo v4，源码提交 `f37ed0e`，发布证据见执行日志。**captionrewrite.com 尚未绑定；真实钱包、合约部署和比赛提交尚未完成。**
+
+开发分支 `codex/testnet-signing` 已完成首个合约模块；尚未连接线上 Demo 或部署 Monad，钱包和测试币准备后再做真实联调。
