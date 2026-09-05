@@ -111,3 +111,9 @@ Demo version 2 私有部署 succeeded，线上 /workspace 已打开并确认工�
 编译：solc 0.8.36+commit.8a079791.Emscripten.clang，Shanghai，optimizer enabled / runs 200。复用现有 solc 0.8.36、ganache 7.9.2、viem 2.56.3，三者 package license 均为 MIT，未安装新脚手架。
 环境限制：Ganache 原生 µWS 与当前 Node ABI 不兼容，自动使用 JS 实现；测试正常结束，无公开测试网性能结论。合约标记 UNLICENSED，未擅自为整个项目授予开源许可。
 下一步：M2–M4 文件、钱包和前端整合；M5 需用户测试钱包及测试币。当前网页仍为 Demo，没有 Monad 合约地址或真实交易，不更新线上部署。
+
+## 2026-09-05：MOJO 截止前提交准备与阻塞
+
+用户要求优先提交项目。重新查询活动 16 为 ongoing、project=null。Sites 访问范围从 owner-only 改为 public；GitHub Allenth/monad-spark 从 PRIVATE 改为 PUBLIC。下载并人工查看 Sites 生成的 1200×750 实际首页截图，按 image/jpeg 上传并确认成功。提交简介明确可点击 Demo、本地合约测试已通过、Monad 测试网部署仍在进行中。
+
+POST /api/agent/projects 返回 HTTP 400：“当前活动启用了团队功能，仅队长可以提交项目”。浏览器核实账号孟庆辉属于“标新链异”，成员 3/3，队长为庄康发。没有离队、冒用队长账号、伪造项目 ID或写成已提交。当前材料已准备，最终创建必须由队长完成。
