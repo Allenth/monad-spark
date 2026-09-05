@@ -23,7 +23,7 @@
 3. [活动与提交操作](docs/EVENT_AND_SUBMISSION.md)：比赛规则及 MOJO 操作。
 4. [Monad 技术研究](docs/MONAD_RESEARCH.md)：链的差异、脚手架、AI 工具。
 5. [产品范围草案](docs/PRODUCT_SCOPE.md)：用户方向和未决问题。
-6. [开发计划 v0.4 与评审状态](docs/projects/monad-spark/PROJECT_PLAN.md)：门禁、责任、里程碑。
+6. [开发计划 v0.5 与待编码状态](docs/projects/monad-spark/PROJECT_PLAN.md)：门禁、责任、里程碑。
 7. [执行记录](docs/DEVELOPMENT_LOG.md)及[文档标准与审计](docs/DOCUMENT_REGISTER.md)。
 
 ## 环境与命令
