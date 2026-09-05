@@ -1,6 +1,6 @@
 # MonadSpark
 
-面向 Monad Blitz@惠州的项目工作区。当前讨论方向是基于 Monad 的标书编制及文档签约 SaaS；具体签约场景尚未确定。
+面向 Monad Blitz@惠州的项目工作区。面向投标企业，衔接已有 AI 编标成果，规划标书/合同关联、双方确认及文件核验。
 
 ## 当前状态
 
@@ -23,7 +23,7 @@
 3. [活动与提交操作](docs/EVENT_AND_SUBMISSION.md)：比赛规则及 MOJO 操作。
 4. [Monad 技术研究](docs/MONAD_RESEARCH.md)：链的差异、脚手架、AI 工具。
 5. [产品范围草案](docs/PRODUCT_SCOPE.md)：用户方向和未决问题。
-6. [项目计划草案](docs/projects/monad-spark/PROJECT_PLAN.md)：门禁、责任、里程碑。
+6. [开发计划 v0.4 与评审状态](docs/projects/monad-spark/PROJECT_PLAN.md)：门禁、责任、里程碑。
 7. [执行记录](docs/DEVELOPMENT_LOG.md)及[文档标准与审计](docs/DOCUMENT_REGISTER.md)。
 
 ## 环境与命令
@@ -37,3 +37,5 @@ Sites/React 前端，计划结合 Monad 测试网。当前只完成产品介绍�
 ## 故障排查
 
 MOJO 身份、截图上传和错误码见提交指南。密钥在仓库之外，仅记录路径，禁止复制到文档、截图或 Git。项目说明不能宣称已具备法律签约效力。
+
+流程审查与修订图见 [FLOW_REVIEW.md](docs/FLOW_REVIEW.md)。当前部署地址为 https://monad-spark-sign.qinghui-meng.chatgpt.site ，仅所有者访问。
